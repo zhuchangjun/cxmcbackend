@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-amplify": "^6.11.0",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
@@ -22,5 +23,15 @@
     "nodemon": "^3.0.3",
     "stripe": "^14.17.0",
     "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.11.0",
+    "@aws-amplify/backend-cli": "^1.4.5",
+    "aws-cdk": "^2.173.2",
+    "aws-cdk-lib": "^2.173.2",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
   }
 }
